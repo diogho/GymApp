@@ -1,0 +1,2 @@
+E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp.UWP\GymApp.UWP.csproj;x86
+E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp\GymApp.csproj;neutral

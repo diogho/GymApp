@@ -13,7 +13,7 @@ namespace GymApp
         {
             InitializeComponent();
 
-            MainPage = new GymApp.MainPage();
+            MainPage = new Views.HomePage();
         }
 
         protected override void OnStart()

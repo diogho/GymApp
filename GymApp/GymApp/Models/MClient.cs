@@ -17,6 +17,17 @@ namespace GymApp.Models
         public DateTime Birthdate { get; set; }
         public int Group { get; set; }
 
+        public override string ToString()
+        {
+            return string.Format("{0} {1} {2} {3} {4}",
+                                 IDClient,
+                                 Document,
+                                 FirstName,
+                                 LastName,
+                                 Birthdate,
+                                 Group);
+        }
+
 
     }
 }
