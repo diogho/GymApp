@@ -15,6 +15,19 @@ namespace GymApp.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime Birthdate { get; set; }
+        public string BirthdateEdit { get
+            {
+                return Birthdate.ToString("dd/mm/yyyy");
+            }
+        }
+
+        public string Age
+        {
+            get
+            {
+                return (DateTime.Today.AddTicks(-Birthdate.Ticks).Year-1).ToString();
+            }
+        }
         public int Group { get; set; }
 
         public override string ToString()

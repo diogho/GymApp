@@ -41,7 +41,7 @@ namespace GymApp.Models
 
         public List<MClient> GetClients()
         {
-            return connection.Table<MClient>().OrderBy(x => x.LastName).ToList();
+            return connection.Table<MClient>().OrderBy(x => x.IDClient).ToList();
         }
 
         public void Dispose()

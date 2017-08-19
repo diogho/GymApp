@@ -100,6 +100,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "GymApp.Android.dll" comes first in this list. */
 		"GymApp.Android.dll",
 		"FormsViewGroup.dll",
+		"SQLite.Net.Async.dll",
 		"SQLite.Net.dll",
 		"SQLite.Net.Platform.XamarinAndroid.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",

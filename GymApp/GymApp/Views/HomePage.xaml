@@ -13,7 +13,7 @@
                     <Label Text="Fecha de Nacimiento" HorizontalOptions="Center"></Label>
                     <DatePicker x:Name="nacimiento"></DatePicker>
                     <Label Text="Grupo" HorizontalOptions="Center"></Label>
-                    <Picker x:Name="grupo" SelectedIndex="1" HorizontalOptions="FillAndExpand">
+                    <Picker x:Name="grupoPicker" SelectedIndex="1" HorizontalOptions="FillAndExpand">
                         <Picker.Items>
                             <x:String>1</x:String>
                             <x:String>2</x:String>
@@ -23,8 +23,8 @@
                         </Picker.Items>
                     </Picker>
                 </StackLayout>
-                <Button x:Name="agregar" Text="Agregar"/>
-                <ListView x:Name="listaListView"/>
+                <Button x:Name="agregarButton" Text="Agregar"/>
+                <ListView x:Name="listaListView" RowHeight="65"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

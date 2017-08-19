@@ -221,3 +221,4 @@ E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp.UWP\obj\x86\Debug\
 E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp.UWP\obj\x86\Debug\ProjectArchitectures.txt
+E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp.UWP\bin\x86\Debug\SQLite.Net.Async.dll
