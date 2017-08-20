@@ -17,3 +17,4 @@ E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp\obj\Debug\GymApp.V
 E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp\obj\Debug\GymApp.dll
 E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp\obj\Debug\GymApp.pdb
 E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp\bin\Debug\SQLite.Net.Async.dll
+E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp\obj\Debug\GymApp.Views.EditPage.xaml.g.cs

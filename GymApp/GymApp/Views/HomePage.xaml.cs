@@ -32,12 +32,20 @@ namespace GymApp.Views
             }
 
             listaListView.ItemTemplate = new DataTemplate(typeof(ClientCell));
+            listaListView.ItemTapped += ListaListView_ItemTapped;
             agregarButton.Clicked += agregarButton_Clicked;
 
             using(var datos = new Models.DataAcces())
             {
                 listaListView.ItemsSource = datos.GetClients();
             }
+        }
+
+
+
+        private async void ListaListView_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            await Navigation.PushAsync(new EditPage(e.Item as MClient));
         }
 
         private async void agregarButton_Clicked(object sender, EventArgs e)

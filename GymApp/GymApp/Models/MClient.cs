@@ -7,7 +7,7 @@ using SQLite.Net.Attributes;
 
 namespace GymApp.Models
 {
-    class MClient
+    public class MClient
     {
         [PrimaryKey, AutoIncrement]
         public int IDClient { get; set; }
