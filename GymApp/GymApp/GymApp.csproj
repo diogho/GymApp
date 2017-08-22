@@ -45,12 +45,31 @@
     </Compile>
     <Compile Include="Models\DataAcces.cs" />
     <Compile Include="Models\MClient.cs" />
+    <Compile Include="Models\MMaximals.cs" />
+    <Compile Include="Models\MMusclePreimeters.cs" />
+    <Compile Include="Models\MPhysical_Evaluation.cs" />
+    <Compile Include="Models\MScreeningSheet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Views\EditPage.xaml.cs">
-      <DependentUpon>EditPage.xaml</DependentUpon>
+    <Compile Include="Views\Tracing\ClientTracingPage.xaml.cs">
+      <DependentUpon>ClientTracingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditClientPage.xaml.cs">
+      <DependentUpon>EditClientPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ClientPage.xaml.cs">
+      <DependentUpon>ClientPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Tracing\MaximalsPage.xaml.cs">
+      <DependentUpon>MaximalsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Tracing\ScreeningSheetPage.xaml.cs">
+      <DependentUpon>ScreeningSheetPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TracingPage.xaml.cs">
+      <DependentUpon>TracingPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -88,13 +107,43 @@
     <Folder Include="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Views\ClientPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\EditClientPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
     <EmbeddedResource Include="Views\HomePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Views\EditPage.xaml">
+    <EmbeddedResource Include="Views\TracingPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Tracing\ScreeningSheetPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Tracing\MaximalsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Tracing\ClientTracingPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

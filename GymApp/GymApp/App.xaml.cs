@@ -12,8 +12,8 @@ namespace GymApp
         public App()
         {
             InitializeComponent();
-
             MainPage = new NavigationPage(new Views.HomePage());
+            //MainPage = new NavigationPage(new Views.PruebaTabbed());
         }
 
         protected override void OnStart()

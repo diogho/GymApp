@@ -109,6 +109,17 @@
     <None Include="GymApp.UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\app_Icon.png" />
+    <Content Include="Assets\ic_account_circle_1x.png" />
+    <Content Include="Assets\ic_account_circle_2x.png" />
+    <Content Include="Assets\ic_chrome_reader_mode_black_24dp_1x.png" />
+    <Content Include="Assets\ic_chrome_reader_mode_black_24dp_2x.png" />
+    <Content Include="Assets\ic_client_black_24dp_1x.png" />
+    <Content Include="Assets\ic_client_black_24dp_2x.png" />
+    <Content Include="Assets\ic_graph_1x.png" />
+    <Content Include="Assets\ic_graph_2x.png" />
+    <Content Include="Assets\ic_settings_1x.png" />
+    <Content Include="Assets\ic_settings_2x.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-100.png" />
     <Content Include="Assets\LockScreenLogo.scale-125.png" />

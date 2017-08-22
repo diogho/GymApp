@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="GymApp.Views.EditPage">
+             x:Class="GymApp.Views.EditClientPage"
+             Title="Editar Cientes"
+             BackgroundColor="#a2a5a7">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <Label Text="Editar Clientes" Font="24" HorizontalOptions="Center" VerticalOptions="Center"></Label>
                 <Entry x:Name="documentoEntry" Placeholder="Documento" Keyboard="Numeric"></Entry>
                 <Entry x:Name="nombresEntry" Placeholder="Nombres"></Entry>
                 <Entry x:Name="apellidosEntry" Placeholder="Apellidos"></Entry>
@@ -23,9 +24,9 @@
                         </Picker.Items>
                     </Picker>
                 </StackLayout>
-                <StackLayout>
-                    <Button x:Name="actualizarButton" Text="Actualizar" BackgroundColor="Lime" TextColor="White" HorizontalOptions="FillAndExpand"/>
-                    <Button x:Name="borrarButton" Text="Borrar" BackgroundColor="Red" TextColor="White" HorizontalOptions="FillAndExpand"/>
+                <StackLayout Orientation="Horizontal">
+                    <Button x:Name="actualizarButton" Text="Actualizar" BackgroundColor="{StaticResource Key=confirm-button-color}" TextColor="White"  HorizontalOptions="FillAndExpand"/>
+                    <Button x:Name="borrarButton" Text="Borrar" BackgroundColor="{StaticResource Key=decline-button-color}" TextColor="White" HorizontalOptions="FillAndExpand"/>
                 </StackLayout>
             </StackLayout>            
         </ScrollView>

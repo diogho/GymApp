@@ -1,31 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="GymApp.Views.HomePage">
-    <ContentPage.Content>
-        <ScrollView>
-            <StackLayout Padding="10" Spacing="10">
-                <Label Text="Clientes" Font="24" HorizontalOptions="Center" VerticalOptions="Center"></Label>
-                <Entry x:Name="documentoEntry" Placeholder="Documento" Keyboard="Numeric"></Entry>
-                <Entry x:Name="nombresEntry" Placeholder="Nombres"></Entry>
-                <Entry x:Name="apellidosEntry" Placeholder="Apellidos"></Entry>
-                <StackLayout Orientation="Horizontal">
-                    <Label Text="Fecha de Nacimiento" HorizontalOptions="Center"></Label>
-                    <DatePicker x:Name="nacimiento"></DatePicker>
-                    <Label Text="Grupo" HorizontalOptions="Center"></Label>
-                    <Picker x:Name="grupoPicker" SelectedIndex="1" HorizontalOptions="FillAndExpand">
-                        <Picker.Items>
-                            <x:String>1</x:String>
-                            <x:String>2</x:String>
-                            <x:String>3</x:String>
-                            <x:String>4</x:String>
-                            <x:String>5</x:String>
-                        </Picker.Items>
-                    </Picker>
+             x:Class="GymApp.Views.HomePage"
+             Title="GYMAPP"
+            
+            BarBackgroundColor="#546673">
+    <!--<ContentPage>
+        <ContentPage.Content>
+            <ScrollView BackgroundColor="Black">
+                <StackLayout Padding="10" Spacing="10" HorizontalOptions="FillAndExpand" VerticalOptions="End" >
+
+                    <Button x:Name="clientButton" Text="Clientes" BackgroundColor="LightSlateGray" TextColor="White" HorizontalOptions="FillAndExpand" BorderRadius="0"/>
+                    <Button x:Name="seguimientoButton" Text="Seguimientos" BackgroundColor="LightSlateGray" TextColor="White" HorizontalOptions="FillAndExpand"/>
+                    <Button x:Name="salirButton" Text="Salir" BackgroundColor="LightSlateGray" TextColor="White" HorizontalOptions="FillAndExpand"/>
                 </StackLayout>
-                <Button x:Name="agregarButton" Text="Agregar"/>
-                <ListView x:Name="listaListView" RowHeight="65"/>
-            </StackLayout>
-        </ScrollView>
-    </ContentPage.Content>
-</ContentPage>
+            </ScrollView>
+        </ContentPage.Content>
+    </ContentPage>-->
+</TabbedPage>

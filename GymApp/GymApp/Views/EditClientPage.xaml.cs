@@ -11,11 +11,11 @@ using Xamarin.Forms.Xaml;
 namespace GymApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class EditPage : ContentPage
+    public partial class EditClientPage : ContentPage
     {
         MClient _client;
 
-        public EditPage(MClient client)
+        public EditClientPage(MClient client)
         {
             InitializeComponent();
 
@@ -65,7 +65,7 @@ namespace GymApp.Views
             }
 
             await DisplayAlert("Confirmación", "Cliente Actualizado Exitosamente", "Aceptar");
-            await Navigation.PushAsync(new HomePage());
+            await Navigation.PushAsync(new ClientPage());
         }
 
         private async void borrarButton_Clicked(object sender, EventArgs e)
@@ -80,7 +80,7 @@ namespace GymApp.Views
             }
 
             await DisplayAlert("Confirmación", "Cliente Borrado Exitosamente", "Aceptar");
-            await Navigation.PushAsync(new HomePage());
+            await Navigation.PushAsync(new ClientPage());
         }
     }
 }

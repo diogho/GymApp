@@ -11,9 +11,9 @@
 namespace GymApp.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\Documents\\Visual Studio 2017\\Projects\\GymApp\\GymApp\\GymApp\\Views\\EditPage.xaml" +
-        "")]
-    public partial class EditPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\Documents\\Visual Studio 2017\\Projects\\GymApp\\GymApp\\GymApp\\Views\\EditClientPag" +
+        "e.xaml")]
+    public partial class EditClientPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry documentoEntry;
@@ -38,7 +38,7 @@ namespace GymApp.Views {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(EditPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(EditClientPage));
             documentoEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "documentoEntry");
             nombresEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "nombresEntry");
             apellidosEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "apellidosEntry");

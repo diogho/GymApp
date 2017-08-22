@@ -13,8 +13,13 @@ E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp\obj\Debug\GymApp.c
 E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp\obj\Debug\GymApp.csproj.CoreCompileInputs.cache
 E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp\obj\Debug\GymApp.MainPage.xaml.g.cs
 E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp\obj\Debug\GymApp.App.xaml.g.cs
-E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp\obj\Debug\GymApp.Views.HomePage.xaml.g.cs
 E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp\obj\Debug\GymApp.dll
 E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp\obj\Debug\GymApp.pdb
 E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp\bin\Debug\SQLite.Net.Async.dll
-E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp\obj\Debug\GymApp.Views.EditPage.xaml.g.cs
+E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp\obj\Debug\GymApp.Views.ClientPage.xaml.g.cs
+E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp\obj\Debug\GymApp.Views.EditClientPage.xaml.g.cs
+E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp\obj\Debug\GymApp.Views.HomePage.xaml.g.cs
+E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp\obj\Debug\GymApp.Views.TracingPage.xaml.g.cs
+E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp\obj\Debug\GymApp.Views.Tracing.ScreeningSheetPage.xaml.g.cs
+E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp\obj\Debug\GymApp.Views.Tracing.MaximalsPage.xaml.g.cs
+E:\Documents\Visual Studio 2017\Projects\GymApp\GymApp\GymApp\obj\Debug\GymApp.Views.Tracing.ClientTracingPage.xaml.g.cs

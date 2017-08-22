@@ -17,7 +17,7 @@ namespace GymApp.Models
         public DateTime Birthdate { get; set; }
         public string BirthdateEdit { get
             {
-                return Birthdate.ToString("dd/mm/yyyy");
+                return Birthdate.ToString("dd/MM/yyyy");
             }
         }
 
