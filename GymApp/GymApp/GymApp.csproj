@@ -45,6 +45,7 @@
     </Compile>
     <Compile Include="Models\DataAcces.cs" />
     <Compile Include="Models\MClient.cs" />
+    <Compile Include="Models\MExercises.cs" />
     <Compile Include="Models\MMaximals.cs" />
     <Compile Include="Models\MMusclePreimeters.cs" />
     <Compile Include="Models\MPhysical_Evaluation.cs" />
