@@ -7,7 +7,7 @@ using Xamarin.Forms;
 
 namespace GymApp.Models
 {
-    //Es una hermosa pruebita
+    //Es una hermosa pruebita pero ahora de ubuntu
     class DataAcces : IDisposable
     {
         private SQLiteConnection connection;
