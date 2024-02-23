@@ -7,6 +7,7 @@ using Xamarin.Forms;
 
 namespace GymApp.Models
 {
+    //Es una hermosa pruebita
     class DataAcces : IDisposable
     {
         private SQLiteConnection connection;
